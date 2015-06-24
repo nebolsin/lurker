@@ -11,6 +11,7 @@ group :development do
   gem "highline"
   gem "appraisal"
   gem "sprockets"
+  gem "sprockets-sass"
   gem "uglifier"
   gem "sass-rails"
   gem "coffee-rails"

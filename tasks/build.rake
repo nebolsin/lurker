@@ -8,7 +8,9 @@ namespace :assets do
     require 'lurker/cli'
 
     require 'sprockets'
+    require 'sprockets-sass'
     require 'sass'
+    require 'bootstrap-sass'
 
     ROOT        = Pathname(File.dirname(__FILE__))
     LOGGER      = Logger.new(STDOUT)
